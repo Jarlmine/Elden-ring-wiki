@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Elden Ring</title>
+    <link rel="stylesheet" href="styles.css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar-toggle" onclick="toggleMenu()">
+        <span><i class="fa-solid fa-bars"></i></span>
+        </div>
+      <ul class="navbar-menu" id="menu">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="navbar-search" id="search"> 
+          <input type="search" placeholder="Rechercher...">
+        </li>
+      </ul>
+      
+    </nav>
+  </header>
+  <div class="fond">
+    <section>
+        <div class="description">
+            <h3>ELDEN RING ARMES</h3>
+            <p>Weapons in Elden Ring are pieces of offensive equipment that are used by the player's character to inflict damage against Enemies and Bosses. Elden Ring features 308 Weapons from new categories as well as some returning ones from previous Souls games.  
+
+            </p>
+            <p> Press and hold the interact button (triangle/Y) and the attack button (R1/RB) to two-hand your equipped weapon. </p>
+        </div>
+    </section>
+     <section>
+      <div class="categories-armes">
+          <h3>Catégories d'armes</h3>
+          <div id="categoriesContainer" class="categories-container">
+              <!-- Images des catégories d'armes cliquables -->
+              <img class="category-image" src="img/dagues/dagger_dagger_weapon_elden_ring_wiki_guide_200px.webp" alt="Dagues" width="80px" height="80px">
+              <img class="category-image" src="img/epeeCourtes/short_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.webp" alt="Épée courtes" width="80px" height="80px">
+              <!-- Ajoutez d'autres images de catégories d'armes si nécessaire -->
+          </div>
+      </div>
+  </section>
+  <section>
+      <div class="armes">
+          <h3 id="armesTitle">Armes</h3>
+          <div id="armesContainer" class="armes-container">
+              <!-- Cet espace sera rempli avec les armes lorsque vous cliquerez sur une catégorie -->
+          </div>
+      </div>
+  </section>
+</div>
+
+
+
+  
+
+<script src="main.js/main.js"></script>
+</body>
+</html>
